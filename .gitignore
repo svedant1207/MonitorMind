@@ -1,0 +1,77 @@
+# ==========================================
+# Django & Python Core
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.elc
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# MySQL, Databases, & Local Data
+# ==========================================
+# Ignore default SQLite if it gets created by accident
+*.sqlite3
+db.sqlite3
+
+# Ignore MySQL dump files or database backups kept locally
+*.sql
+*.sql.gz
+
+# ==========================================
+# Security & Environment Variables (CRITICAL)
+# ==========================================
+# Keeps your MySQL passwords and Django SECRET_KEY safe
+.env
+.venv
+env.txt
+local_settings.py
+
+# ==========================================
+# Django Media & Static Files
+# ==========================================
+# Ignore user-uploaded media files and gathered static assets
+media/
+staticfiles/
+/static/
+
+# ==========================================
+# Operating System Files (macOS specific)
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+dumplog.txt
+
+# ==========================================
+# IDEs and Editors (VS Code / PyCharm)
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
